@@ -1,0 +1,29 @@
+{
+  "name": "GraphicsSVGComponent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/toni-js/graphics-svg-component.git",
+  "author": "Toni",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "QuickGit": "git add . && git commit -m \"Quick Commit\" && git push -u origin master"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/polyfill": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.15.3",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
